@@ -6,7 +6,9 @@ body{
 background: white;
 color:black;
 transition: 0.4;
+
 }
+
 .dark{
 background: #222;
 color: white;
