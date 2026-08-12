@@ -1,11 +1,12 @@
-button{
-padding: 10px 20px;
-font-size: 18px;
-cursor: pointer;
+body{
+  fonte-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+background: white;
+color:black;
+transition: 0.4;
 }
-const botao = document.getElementByld("tema");
-
-
-botao.addEventListener("click", function () {
-     document.body.classList.toggle("dark");
-});
+.dark{
+background: #222;
+color: white;
+}
